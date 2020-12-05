@@ -1,5 +1,5 @@
 div.vh80 table {
-    height: 92vh;
+    height: 77vh;
 }
 
 div.vh80 table {
@@ -15,7 +15,7 @@ header h1 {
 
 header p {
     margin-top: 0px;
-    color: rgb(54, 54, 54);
+    color: rgb(85, 85, 85);
 }
 
 header img {
@@ -27,4 +27,30 @@ header img {
 
 .center {
     text-align: center;
+}
+
+.em1 {
+    height: 1em;
+}
+
+.ta-justify {
+    text-align: justify;
+}
+
+div.gallery {
+    margin-top: 25px;
+    margin-bottom: 250px;
+}
+
+div.gallery div.item {
+    width: 100%;
+    max-width: 400px;
+    border-color: rgb(190, 190, 190);
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 1px;
+}
+
+div.gallery div.item div.content {
+    margin: 25px;
 }
