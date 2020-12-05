@@ -37,20 +37,41 @@ header img {
     text-align: justify;
 }
 
+a.not-colored {
+    color: inherit;
+}
+
 div.gallery {
-    margin-top: 25px;
-    margin-bottom: 250px;
+    margin: 25px auto 25px auto;
 }
 
 div.gallery div.item {
     width: 100%;
-    max-width: 400px;
-    border-color: rgb(190, 190, 190);
+    margin-bottom: 15px;
+    border-color: rgb(224, 224, 224);
     border-style: solid;
-    border-radius: 25px;
     border-width: 1px;
+    border-radius: 20px;
 }
 
 div.gallery div.item div.content {
-    margin: 25px;
+    margin: 20px;
+}
+
+@media (min-width: 793px) {
+    div.gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: flex-start;
+    }
+
+    div.gallery div.item {
+        box-sizing: border-box;
+        width: calc(33.33% - 15px);
+    }
+
+    div.gallery div.item div.content {
+        width: calc(100% - 40px);
+    }
 }
