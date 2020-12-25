@@ -77,6 +77,10 @@ header div#vchkhr-card table {
 @media (max-width: 425px) {
     header div#vchkhr-card table {
         width: 100%;
-        max-width: 325px;
+        max-width: 300px;
+    }
+    header div#vchkhr-card img {
+        width: 20vw;
+        height: 20vw;
     }
 }
