@@ -74,13 +74,22 @@ header div#vchkhr-card table {
     margin-right: auto;
 }
 
-@media (max-width: 425px) {
-    header div#vchkhr-card table {
-        width: 100%;
-        max-width: 300px;
-    }
+@media (max-width: 525px) {
     header div#vchkhr-card img {
-        width: 20vw;
-        height: 20vw;
+        height: 73px;
+        margin-bottom: 13px;
+    }
+}
+
+@media (max-width: 409px) {
+    header div#vchkhr-card img {
+        height: 57px;
+        margin-bottom: 63px;
+    }
+}
+
+@media (max-width: 345px) {
+    header div#vchkhr-card img {
+        margin-bottom: 87px;
     }
 }
