@@ -73,3 +73,10 @@ header div#vchkhr-card table {
     margin-left: auto;
     margin-right: auto;
 }
+
+@media (max-width: 425px) {
+    header div#vchkhr-card table {
+        width: 100%;
+        max-width: 325px;
+    }
+}
