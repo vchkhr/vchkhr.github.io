@@ -39,12 +39,10 @@ div.gallery div.item div.content {
         justify-content: left;
         align-content: flex-start;
     }
-
     div.gallery div.item {
         box-sizing: border-box;
         width: calc(33.33% - 15px);
     }
-
     div.gallery div.item div.content {
         width: calc(100% - 40px);
     }
@@ -92,4 +90,8 @@ header div#vchkhr-card table {
     header div#vchkhr-card img {
         margin-bottom: 87px;
     }
+}
+
+.mt-60 {
+    margin-top: 60px;
 }
