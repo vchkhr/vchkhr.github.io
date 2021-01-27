@@ -20,6 +20,16 @@ a.not-colored {
     color: inherit;
 }
 
+span.link {
+    color: #007bff;
+    cursor: pointer;
+}
+
+span.link:hover {
+    color: #0056bb;
+    text-decoration: underline;
+}
+
 img.em1 {
     height: 1em;
 }
