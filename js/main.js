@@ -11,3 +11,5 @@ function show_info(job) {
 
 show_info("Diosphere_Python");
 show_info("Diosphere_Team_Lead");
+show_info("Here_Mapmaker");
+show_info("Yandex_Mapmaker");
