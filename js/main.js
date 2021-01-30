@@ -13,3 +13,6 @@ show_info("Diosphere_Python");
 show_info("Diosphere_Team_Lead");
 show_info("Here_Mapmaker");
 show_info("Yandex_Mapmaker");
+show_info("Khpi_Software");
+show_info("Ucode_Software");
+show_info("Sololearn_Software");
