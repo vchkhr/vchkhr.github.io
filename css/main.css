@@ -8,6 +8,14 @@
     margin-top: 60px;
 }
 
+.label-and-icon {
+    display: inline-block;
+}
+
+.label-and-icon .icon {
+    white-space: nowrap;
+}
+
 p.center {
     text-align: center;
 }
