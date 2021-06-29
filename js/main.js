@@ -16,3 +16,5 @@ show_info("Yandex_Mapmaker");
 show_info("Khpi_Software");
 show_info("Ucode_Software");
 show_info("Sololearn_Software");
+show_info("Coursera_Software");
+show_info("Linkedin_Software");
